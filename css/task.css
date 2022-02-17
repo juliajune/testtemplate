@@ -1,0 +1,9 @@
+ /*--- Task ---*/
+ .task{
+    background-color: var(--main-sub-color);
+    padding: 10px;
+ }
+ .task__description{
+     margin-bottom: 20px;
+     font-weight: 600;
+ }

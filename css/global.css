@@ -1,0 +1,67 @@
+/*--- Global styles ---*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus {
+    outline: none;
+}
+body{
+    background-color: var(--main-bg-color);
+    font-size: 14px;
+    font-family: var(--main-font);
+    font-weight: 400;
+    color:  var(--main-text-color);
+}
+
+html,
+body {
+    height: 100%;		  
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    padding: 10px;
+}
+
+.header__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__info{
+    text-align: center;
+}
+
+.page{
+    flex: 1 1 auto;
+   
+}
+
+.footer{
+    flex: 0 0 auto;
+}
+
+.container{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+@media screen and (min-width: 992px){ 
+    .container{
+        max-width: 960px;
+        padding: 0 15px;
+        margin: 0 auto;
+        
+    }
+}
